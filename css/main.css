@@ -206,10 +206,6 @@ textarea {
 }
 
 
-/*  menu below */
-
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-
 .bottom-border {
   -webkit-box-shadow: 0 4px 5px -4px #aed8f2;
 }
@@ -219,6 +215,11 @@ textarea {
   padding: 10px;
 }
 
+.gallery-images {}
+
+
+/*  menu below */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 #cssmenu,
 #cssmenu ul,
 #cssmenu ul li,
