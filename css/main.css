@@ -251,6 +251,26 @@ textarea {
   font-size: 175%;
 }
 
+#footer-container {
+  border-top: 3px solid #9BCAF2;
+  padding-top: 10px;
+}
+
+.footer-col-title {
+  color: var(--titleColor);
+  font-style: italic;
+}
+
+.trip-advisor-logo {}
+
+.trip-advisor-img {
+  height: 50px;
+}
+
+.copyright-text {
+  color: var(--textColor)
+}
+
 /*  menu below */
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 #cssmenu,
