@@ -203,7 +203,8 @@ textarea {
 
 /* main page, index.html */
 .container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  border-radius: 10px;
   margin-top: 2%;
   background: var(--blue);
 }
@@ -265,6 +266,37 @@ textarea {
 
 .trip-advisor-img {
   height: 50px;
+}
+
+.weather {
+  width: 100%;
+}
+
+.ssi-logo {}
+
+.nitrox-logo {
+  width: 100%;
+}
+
+.adopt-a-dive-site-logo {
+  width: 100%;
+}
+
+.social-icon-facebook {
+  color: #3B579D;
+  padding-top: 15px;
+}
+
+.social-icon-twitter {
+  color: #2AAAE0;
+}
+
+.email-us {
+  padding-top: 15px;
+}
+
+.email-us p {
+  margin: 0 0 0;
 }
 
 .copyright-text {
