@@ -303,6 +303,30 @@ textarea {
   color: var(--textColor)
 }
 
+/* REEF_MAP */
+.reef-map-flags {
+  text-align: center;
+}
+
+.mexican-flag {
+  height: 72px;
+}
+
+.dive-flag {
+  height: 72px;
+}
+
+.ssi-logo {
+  height: 72px;
+}
+.dive-sites {
+  margin: 15px;
+  width: 75%;
+  -webkit-box-shadow: 5px 5px 15px -2px rgba(204,142,142,0.8);
+  -moz-box-shadow: 5px 5px 15px -2px rgba(204,142,142,0.8);
+  box-shadow: 5px 5px 15px -2px rgba(204,142,142,0.8);
+}
+
 /*  menu below */
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 #cssmenu,
