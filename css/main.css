@@ -12,14 +12,20 @@
    ========================================================================== */
 :root {
   --blue: #0D0C52;
+  --lightBlue: #9BCAF2;
   --titleColor: #9BCAF2;
   --textColor: #999;
+  --boldTextColor: yellow;
 }
 
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+}
+
+body {
+  background-color: var(--lightBlue) !important;
 }
 
 
@@ -181,7 +187,25 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  body {
+    background-color: red;
+  }
+
+  .gallery-images {
+    width: 35px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  body {
+    background-color: red;
+  }
+
+  .gallery-images {
+    width: 35px;
+  }
   /* Style adjustments for viewports that meet the condition */
 }
 
@@ -206,6 +230,7 @@ textarea {
   /* border: 1px solid red; */
   border-radius: 10px;
   margin-top: 2%;
+  margin-bottom: 2%;
   background: var(--blue);
 }
 
@@ -229,6 +254,28 @@ textarea {
 .text-style {
   color: var(--textColor);
   text-align: justify;
+}
+
+.text-style-on-light {
+  color: var(--boldTextColor);
+  text-align: justify;
+}
+
+.alert-success {
+  color: var(--blue) !important;
+  background-color: var(--lightBlue) !important;
+  border-color: var(--lightBlue) !important;
+}
+
+.alert-primary {
+  color: var(--blue) !important;
+  background-color: var(--lightBlue) !important;
+  border-color: var(--lightBlue) !important;
+}
+
+.page-title-text {
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .ssi-logo {
@@ -269,10 +316,8 @@ textarea {
 }
 
 .weather {
-  width: 100%;
+  width: 80%;
 }
-
-.ssi-logo {}
 
 .nitrox-logo {
   width: 100%;
@@ -316,8 +361,8 @@ textarea {
   height: 72px;
 }
 
-.ssi-logo {
-  height: 72px;
+.ssi-logo-header {
+  height: 65px;
 }
 .dive-sites {
   margin: 15px;
