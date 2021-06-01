@@ -1,0 +1,56 @@
+[{
+	"id": 2,
+	"title": "Deep Diving (2 Days)",
+	"price": "245.0",
+	"description": "$60 deposit required"
+}, {
+	"id": 1,
+	"title": "Boat Diving",
+	"price": "150.0",
+	"description": "$60 deposit required"
+}, {
+	"id": 3,
+	"title": "Navigation",
+	"price": "150.0",
+	"description": "$60 deposit required"
+}, {
+	"id": 4,
+	"title": "Night Diving and Limited Visibility",
+	"price": "150.0",
+	"description": "$60 deposit required"
+}, {
+	"id": 5,
+	"title": "Nitrox EAN",
+	"price": "190.0",
+	"description": "$80 deposit required"
+}, {
+	"id": 6,
+	"title": "Perfect Buoyancy",
+	"price": "150.0",
+	"description": "$60 deposit required"
+}, {
+	"id": 7,
+	"title": "Science of Diving",
+	"price": "85.0",
+	"description": "$60 deposit required"
+}, {
+	"id": 8,
+	"title": "Stress Rescue",
+	"price": "250.0",
+	"description": "$80 deposit required"
+}, {
+	"id": 10,
+	"title": "Try Scuba Diving Beach - 1 Tank",
+	"price": "80.0",
+	"description": null
+}, {
+	"id": 11,
+	"title": "Try Scuba Boat Diving 2 Tank",
+	"price": "130.0",
+	"description": null
+}, {
+	"id": 12,
+	"title": "Wreck Diving",
+	"price": "150.0",
+	"description": "$60 deposit required"
+}]

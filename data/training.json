@@ -1,0 +1,43 @@
+[{
+	"id": 7,
+	"title": "Open Water Certification Referral (4 Dives)",
+	"price": "295.0",
+	"description": null,
+	"created_at": "2017-03-11T01:55:02.281Z",
+	"updated_at": "2020-02-05T04:29:30.292Z"
+}, {
+	"id": 4,
+	"title": "Advanced Adventurer (Number or required dives log...)",
+	"price": "320.0",
+	"description": "$50 Registration Fee. Five (5) open water dives required to achieve this certification",
+	"created_at": "2016-12-25T03:14:09.654Z",
+	"updated_at": "2019-07-15T02:46:58.205Z"
+}, {
+	"id": 3,
+	"title": "Open Water Certification PLUS (Includes Nitrox Certification)",
+	"price": "525.0",
+	"description": "$235 Registration Fee",
+	"created_at": "2016-12-25T03:14:09.650Z",
+	"updated_at": "2019-07-15T02:50:54.333Z"
+}, {
+	"id": 6,
+	"title": "Scuba Skills Update",
+	"price": "160.0",
+	"description": "$25 Registration Fee",
+	"created_at": "2016-12-25T03:14:09.669Z",
+	"updated_at": "2019-07-15T03:03:46.180Z"
+}, {
+	"id": 5,
+	"title": "Advanced Open Water Diver (Number or required dives logged varies depending on the specialties selected)",
+	"price": "560.0",
+	"description": "$200 Registration Fee. Minimum 8 open water dives required to achieve this certification",
+	"created_at": "2016-12-25T03:14:09.657Z",
+	"updated_at": "2019-07-15T03:09:15.191Z"
+}, {
+	"id": 2,
+	"title": "Open Water Diver Certification",
+	"price": "495.0",
+	"description": "$145 Registration Fee",
+	"created_at": "2016-12-25T03:14:09.647Z",
+	"updated_at": "2019-08-26T23:54:40.156Z"
+}]

@@ -1,0 +1,41 @@
+[{
+	"id": 2,
+	"title": "BCD",
+	"price": "10.0",
+	"description": null
+}, {
+	"id": 3,
+	"title": "Regulator",
+	"price": "10.0",
+	"description": null
+}, {
+	"id": 4,
+	"title": "Wetsuit",
+	"price": "10.0",
+	"description": null
+}, {
+	"id": 5,
+	"title": "Mask and Fins",
+	"price": "10.0",
+	"description": null
+}, {
+	"id": 6,
+	"title": "Light",
+	"price": "10.0",
+	"description": null
+}, {
+	"id": 7,
+	"title": "Nitrox Tank",
+	"price": "10.0",
+	"description": null
+}, {
+	"id": 8,
+	"title": "100 CC Tank",
+	"price": "5.0",
+	"description": null
+}, {
+	"id": 1,
+	"title": "Commplete Set (BCD, Regulator, Mask and Fins",
+	"price": "30.0",
+	"description": null
+}]

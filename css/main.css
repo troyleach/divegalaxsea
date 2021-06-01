@@ -26,6 +26,7 @@ html {
 
 body {
   background-color: var(--lightBlue) !important;
+  color: var(--textColor) !important;
 }
 
 
@@ -370,6 +371,97 @@ textarea {
   -webkit-box-shadow: 5px 5px 15px -2px rgba(204,142,142,0.8);
   -moz-box-shadow: 5px 5px 15px -2px rgba(204,142,142,0.8);
   box-shadow: 5px 5px 15px -2px rgba(204,142,142,0.8);
+}
+
+/*  About */
+.about-pictures {
+  width: 100%;
+}
+
+.about-body-text {
+  font-size: 16px;
+  /* line-height: 1.5; */
+}
+
+/* .about-body-text:after { */
+/*   content: ""; */
+/*   display: inline-block; */
+/*   width: 100%; */
+/* } */
+
+.pricing-fish-picture {
+  width: 60%;
+  border: 1px solid #000;
+  padding: 5px;
+  //margin: 15px;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+tr th {
+  padding: 5px;
+}
+
+tr td {
+  padding: 2px 10px;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  margin-bottom: 25px;
+}
+
+#Diving {
+  display: block;
+}
+
+.typical-image {
+  width: 100%;
+  border: 1px solid #000;
+  padding: 5px;
+  //margin: 15px;
+}
+
+.rules-image {
+  width: 100%;
 }
 
 /*  menu below */

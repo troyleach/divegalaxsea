@@ -1,0 +1,317 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- <link rel="stylesheet" href="css/main.scss"> -->
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <meta name="theme-color" content="#fafafa">
+
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header -->
+    <div class="row">
+        <div class="col-md-4">
+            <div class="">
+              <img class='brand-image' alt='brand' src='img/logo.png' />
+            </div>
+        </div>
+        <div class="col-md-8">
+          <div class="row">
+              <div id='cssmenu' class='bottom-border'>
+                <ul>
+                   <li><a href='/index.html'>Home</a></li>
+                   <li class='active'><a href='/pricing.html'>Diving</a>
+                   <li><a href="/reef_map.html">Reef Map</a></li>
+                   <li><a href="/about.html">About Cozumel</a></li>
+                   <li><a href="/gallery.html">Gallery</a></li>
+                   <!-- <li><a href="">Book My Diving</a></li> taking this out bc It was broken or something-->
+                </ul>
+              </div><!-- End of cssmenu -->
+          </div>
+          <div class="row">
+              <div class="col-md-6">
+                  <div class=""><!-- placeholder --></div>
+              </div>
+              <div class="col-md-6">
+                  <div class="pull-right">
+                    <a href='http://www.divessi.com/' >
+                      <img class='ssi-logo-header' alt='SSI Logo' src='img/NEW-SSI-LOGO-WHT.png' />
+                    </a>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+
+<!-- Content -->
+    <div class="alert alert-primary" role="alert">
+      <p class='page-title-text'>Learn About our Scuba Dive Courses & Diving Rates</p>
+    </div>
+
+<!-- Tabs -->
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'Diving')">Diving</button>
+      <button class="tablinks" onclick="openCity(event, 'Training')">Training</button>
+      <button class="tablinks" onclick="openCity(event, 'Policies')">Policies</button>
+    </div>
+
+    <div id="Diving" class="tabcontent">
+      <div class="row">
+        <div class="col-md-4">
+          <img class='pricing-fish-picture center-block' alt='Fish' src='img/fish.jpg' />
+        </div>
+        <div class="col-md-8">
+          <p class="about-body-text text-style">
+            Scuba diving with Dive GalaxSea in Cozumel is the most flexible scuba diving excursion you'll ever enjoy. We cater to each individual diver by giving them the most exciting, safe, and customizable dive tour available on the island. Our guests come first as we venture into Cozumel’s coral reefs to explore the mesmerizing dive sites. We are here to help you spend your Cozumel vacation the way you like. For a detailed description of each Cozumel coral reef site and dive site, check out our Interactive Cozumel Reef Map.
+          </p>
+          <p class="about-body-text text-style">
+            Cozumel reefs and shallow coral formations extend along the west coast of the magnificent island, from the southern tip to just south of the art-filled, friendly town of San Miguel. Cozumel’s two main coral reef systems are Colombia Reef and Palancar Reef. Both are easily reachable, starting around a depth of 30 feet (9 meters). Paradise Reef offers Cozumel snorkelers and Cozumel scuba divers a much more accessible coral and limestone formation to explore as shallow as 6 - 30 feet (2-9 meters). Come safely explore these reefs with our trusted dive team at Dive GalaxSea!
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <divepricing><!-- Table for dive pricing --></divepricing>
+        </div>
+        <div class="col-md-6">
+          <rentalpricing><!-- Table for dive pricing --></rentalpricing>
+        </div>
+      </div>
+      <div class="alert alert-primary" role="alert">
+        <p class='page-title-text'>Tanks, weights, belts are included.</p>
+        <p class='page-title-text'>Prices do not include the daily Marine Park fee or tips for the crew.</p>
+      </div>
+    </div>
+
+    <div id="Training" class="tabcontent">
+      <div class="row">
+        <div class="col-md-12">
+          <p class='text-style'>
+            Our SSI dive courses are available across all levels and are designed to suit your needs. From first-time divers to professional divers, you will learn safety and skills under the careful care of our experienced SSI Certified Dive Instructors. We can also help certified divers to develop further skills and upgrade your certificate level.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <a href="img/diver-career-path.jpg" target="_blank">
+            <img class="typical-image" src="img/diver-career-path.jpg" alt="Kim and students 250x333">
+          </a>
+        </div>
+        <div class="col-md-8 pricing-text">
+          <p class='text-style'>
+            Our training courses include online and offline access to SSI electronic training materials, including quizzes, and all necessary equipment (see below).  Our dive professionals are available via email to answer any questions you might have during your e-learning and will also conduct an academic review prior to in-person final exams. Upon successful completion of your course, you will receive your own personal e-logbook and e-certification cards.  No more forgetting your logbook and leaving your c-card in your other wallet - they travel with you on your phone, tablet, or laptop!
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 pricing-text-left">
+          <p class='text-style'>
+            Our dive courses go beyond all other dive operators to ensure the most comfortable, interactive, fun-filled, and safety-oriented training for both new and experienced divers. Courses are offered on a private or semi-private basis, fully tailored to your vacation schedule. Our goal is to create a competent, aware, and knowledgeable diver. Come Dive Cozumel and see for yourself what the excitement is about when diving with Dive GalaxSea!
+          </p>
+        </div>
+        <div class="col-md-4">
+            <img class="typical-image" src="img/teaching.jpg" alt="Kim and student 250x333">
+        </div>
+      </div>
+
+      <div class="alert alert-primary" role="alert">
+        <p class='page-title-text'>Necessary equipment: diving tanks, diving weights, and rental gear (buoyancy control device (BCD), regulator, mask, fins, snorkel, and a wet suit if needed).</p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <trainingpricing><!-- Table for training pricing --></trainingpricing>
+        </div>
+        <div class="col-md-6">
+          <specialtiespricing><!-- Table for specialties pricing --></specialtiespricing>
+        </div>
+      </div>
+    </div>
+
+    <div id="Policies" class="tabcontent">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Dive Galaxsea policies</h2>
+            <p class='text-style'>
+                Dive Galaxsea can't thank you enough for your business. We are committed to providing a premium diving and snorkeling experience. To continue to provide you with the quality of service that is expected, please understand and respect our policies as well as those of the National Coral Reef Park of Cozumel.
+            </p>
+          <h3>Marin Park Rules & Regulations</h3>
+          <div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <img class="rules-image center-block" alt="Park Rules and Regulation image" src="img/cozumel-marine-park-rules.jpg" />
+                  </div>
+              </div>
+          </div>
+          <h3>Deposits</h3>
+          <p class='text-style'>
+              A $50 US per person deposit is required at the time of booking, payable via PayPal. The remaining balance is due in full prior to departure. The balance can be paid via PayPal or in cash in US dollars or Mexican pesos as determined by the current exchange rate. Service charges assessed by PayPal, if any, are payable by the client and will be added to the balance due. Different rates and deposit policies apply to private charters and groups.
+          </p>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Refunds and Cancellations</h3>
+          <p class='text-style'>
+              Any dive or snorkel trip that is cancelled due to weather conditions and cannot be rescheduled is 100% refundable. Cancellations may be due to port closure ordered by the Harbor Master, inability of a cruise ship passengers to disembark, or unsafe conditions as determined by the boat captain or Dive GalaxSea. In the event of weather cancellations, every effort will be made to reschedule.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Individual Cancellations</h3>
+          <p>
+            <ul>
+              <li class='text-style'>48 hours prior to departure - 100% refund</li>
+              <li class='text-style'>24-48 hours prior to departure - 50% refund</li>
+              <li class='text-style'>Less than 24 hours or "No Show" - NO REFUND</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class='text-style'>
+              Please note that after departure, no refunds will be issued due to sea sickness, inability to equalize, or for any other reason the client opts not to dive or snorkel.
+          </p>
+          <p class='text-style'>Dive GalaxSea reserves the right to refuse service with NO refunds to any client who:</p>
+          <ul>
+            <li class='text-style'>Fails to comply with the Marine Park Rules and Regulations</li>
+            <li class='text-style'>Appears to be under the influence of alcohol and/or drugs</li>
+            <li class='text-style'>Otherwise jeopardizes the health and safety of themselves, other clients, staff, and/or crew members.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div id="footer-container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="footer-col-title">
+            <p>Review us at...</p>
+          </div>
+          <div class="trip-advisor-logo">
+            <a href="#">
+              <img class="trip-advisor-img center-block" src="img/3-TA_logo_green_background.png" alt="trip advisor logo">
+            </a>
+          </div>
+          <p class='text-style'>
+            You looking for a great, custom experience rather than a cattle boat in CZM???? Call Kim. But do it before you get there... the word will get out and she'll fill up
+            <a href="http://www.tripadvisor.com/Attraction_Review-g150809-d3493106-Reviews-Dive_Galaxsea-Cozumel_Yucatan_Peninsula.html" target="_blank"><span>More...</span></a>
+          </p>
+          <p class='text-style'>
+            Kim truly is a pro. I did my open water dives with her last week. She was prepared, knowledgable, reassuring, relaxed, professional, and funny. The time under and above water with her was great.
+            <a href="http://www.tripadvisor.com/Attraction_Review-g150809-d3493106-Reviews-Dive_Galaxsea-Cozumel_Yucatan_Peninsula.html" target="_blank"><span>More...</span></a>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <div class="footer-col-title">
+            <p>Weather in Cozumel...</p>
+          </div>
+          <a href="https://weather.com/weather/today/l/20.42,-86.92?par=google" target='_blank'>
+            <img class="weather center-block" src="img/weather.jpg" alt="Cozumel weather" />
+          </a>
+        </div>
+        <div class="col-md-4">
+          <div class="footer-col-title">
+            <p>Socail Media...</p>
+          </div>
+          <div class="row ssi-nitrox-logos">
+            <div class="col-md-6">
+              <a href="http://www.divessi.com/">
+                <img class="ssi-logo" src="img/ssi-logo-red-text.png" alt="SSI logo" />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <img class="nitrox-logo" src="img/nitroxT.png" alt="Nitrox Patch" />
+            </div>
+            <div class="col-md-3">
+              <img class="adopt-a-dive-site-logo" src="./img/adopt-a-dive-site.png" alt="Adopt a Dive Site" />
+            </div>
+          </div>
+          <div class="social-icon-facebook">
+            <i class="fa fa-2x fa-facebook-square"></i>
+            <a href="https://www.facebook.com/DiveGalaxSeaCozumel">
+              &nbsp;&nbsp;&nbsp;Facebook
+            </a>
+          </div>
+          <div class="social-icon-twitter">
+            <i class="fa fa-2x fa-twitter-square"></i>
+            <a href="https://twitter.com/divegalaxsea">
+              &nbsp;&nbsp;&nbsp;Twitter
+            </a>
+          </div>
+          <div class="email-us">
+            <p class='text-style'>Have a quick question?
+              <a href="mailto:kim@divegalaxsea.com"><span class='text-style'>Contact us!</span></a>
+            </p>
+            <p class='text-style'>Ready to go diving?
+              <a href="mailto:kim@divegalaxsea.com"><span class='text-style'>Dive</span></a>
+            </p>
+          </div>
+        </div>
+        <div class="copy-right general-line-brake col-md-12">
+          <small class="copyright-text">copyright diveGalaxsea 2016</small>
+          <span class="pull-right">site by:<a href="http://www.troyleach.com">&nbsp;&nbsp;&nbsp;Troyleach</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <!-- <script src="js/rental.js"></script> -->
+  <script src="https://use.fontawesome.com/82e53555d0.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+  <!-- Tabs -->
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  </script>
+</body>
+
+</html>
