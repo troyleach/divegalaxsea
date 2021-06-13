@@ -1,5 +1,5 @@
 let galleryImages, el;
-let xCoord = 0
+let xCoord = 0;
 let yCoord = 265;
 
 
