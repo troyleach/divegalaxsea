@@ -72,7 +72,6 @@ function getSpecialtiesPricing() {
 // };
 
 function generateTable(data, selector) {
-  console.log('data and selector', data, selector)
   // get the reference for the body
   let body = document.querySelector(selector);
 

@@ -37,6 +37,9 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+  <!-- Axios for making http requests -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
   <meta name="theme-color" content="#fafafa">
 </head>
 
@@ -86,49 +89,57 @@
         <div class=" gallery-image-container">
             <div class="col-md-12">
               <div class="gallery-image">
-                <h1 class="gallery-title">Explore Cozumel</h1>
+                  <displayImage id="gallery-image-element"></displayImage>
               </div>
-              <div class="thumbs">
-                <div class="row">
-                  <div class="col-md-2 box">
-                    <img src="img/gallery/img1.jpg" class="slidea" alt="Image 1" />
-                  </div>
-                  <div class="col-md-2 box">
-                    <img src="img/gallery/img2.jpg" class="slidea" alt="Image 1" />
-                  </div>
-                  <div class="col-md-2 box">
-                    <img src="img/gallery/img3.jpg" class="slidea" alt="Image 1" />
-                  </div>
-                  <div class="col-md-2 box">
-                    <img src="img/gallery/img4.jpg" class="slidea" alt="Image 1" />
-                  </div>
-                  <div class="col-md-2 box">
-                    <img src="img/gallery/img5.jpg" class="slidea" alt="Image 1" />
-                  </div>
-                  <div class="col-md-2 box">
-                    <img src="img/gallery/img6.jpg" class="slidea" alt="Image 1" />
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-2 box">
-                    <img src="img/gallery/img9.jpg" class="slidea" alt="Image 1" />
-                  </div>
-                  <div class="col-md-2 box">
-                    <img src="img/gallery/img10.jpg" class="slidea" alt="Image 1" />
-                  </div>
-                  <div class="col-md-2 box">
-                    <img src="img/gallery/img11.jpg" class="slidea" alt="Image 1" />
-                  </div>
-                  <div class="col-md-2 box">
-                    <img src="img/gallery/img12.jpg" class="slidea" alt="Image 1" />
-                  </div>
-                  <div class="col-md-2 box">
-                    <img src="img/gallery/img13.jpg" class="slidea" alt="Image 1" />
-                  </div>
-                  <div class="col-md-2 box">
-                    <img src="img/gallery/img14.jpg" class="slidea" alt="Image 1" />
-                  </div>
-                </div>
+              <div id="thumbs">
+                <!-- <div id="thumbNailContainer" class="row"> -->
+                  <!-- <div class="col-md-2 box"> -->
+                  <!--   <img -->
+                  <!--     src="img/gallery/img1.jpg" -->
+                  <!--     class="slidea" -->
+                  <!--     alt="Image 1" -->
+                  <!--     onclick="displayImage('img/gallery/img1.jpg')" /> -->
+                  <!-- </div> -->
+                  <!-- <div class="col-md-2 box"> -->
+                  <!--   <img -->
+                  <!--     src="img/gallery/img2.jpg" -->
+                  <!--     class="slidea" -->
+                  <!--     alt="Image 1" -->
+                  <!--     onclick="displayImage('img/gallery/img2.jpg')" /> -->
+                  <!-- </div> -->
+                  <!-- <div class="col-md-2 box"> -->
+                  <!--   <img src="img/gallery/img3.jpg" class="slidea" alt="Image 1" /> -->
+                  <!-- </div> -->
+                  <!-- <div class="col-md-2 box"> -->
+                  <!--   <img src="img/gallery/img4.jpg" class="slidea" alt="Image 1" /> -->
+                  <!-- </div> -->
+                  <!-- <div class="col-md-2 box"> -->
+                  <!--   <img src="img/gallery/img5.jpg" class="slidea" alt="Image 1" /> -->
+                  <!-- </div> -->
+                  <!-- <div class="col-md-2 box"> -->
+                  <!--   <img src="img/gallery/img6.jpg" class="slidea" alt="Image 1" /> -->
+                  <!-- </div> -->
+                <!-- </div> -->
+                <!-- <div class="row"> -->
+                  <!-- <div class="col-md-2 box"> -->
+                  <!--   <img src="img/gallery/img9.jpg" class="slidea" alt="Image 1" /> -->
+                  <!-- </div> -->
+                  <!-- <div class="col-md-2 box"> -->
+                  <!--   <img src="img/gallery/img10.jpg" class="slidea" alt="Image 1" /> -->
+                  <!-- </div> -->
+                  <!-- <div class="col-md-2 box"> -->
+                  <!--   <img src="img/gallery/img11.jpg" class="slidea" alt="Image 1" /> -->
+                  <!-- </div> -->
+                  <!-- <div class="col-md-2 box"> -->
+                  <!--   <img src="img/gallery/img12.jpg" class="slidea" alt="Image 1" /> -->
+                  <!-- </div> -->
+                  <!-- <div class="col-md-2 box"> -->
+                  <!--   <img src="img/gallery/img13.jpg" class="slidea" alt="Image 1" /> -->
+                  <!-- </div> -->
+                  <!-- <div class="col-md-2 box"> -->
+                  <!--   <img src="img/gallery/img14.jpg" class="slidea" alt="Image 1" /> -->
+                  <!-- </div> -->
+                <!-- </div> -->
               </div>
             </div>
         </div>
@@ -212,6 +223,7 @@
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script>
   <script src="https://use.fontawesome.com/82e53555d0.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
