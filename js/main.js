@@ -6,7 +6,8 @@ let requestURL, pricing;
 // const rentalpricing = document.querySelector('rentalpricing');
 
 function getDivePricing() {
-  requestURL = `${baseURL}/data/diving.json`;
+  requestURL = `/data/diving.json`;
+  // requestURL = `${baseURL}/data/diving.json`;
   let requestDive = new XMLHttpRequest();
   requestDive.open('GET', requestURL);
   requestDive.responseType = 'json';
@@ -19,7 +20,8 @@ function getDivePricing() {
 };
 
 function getRentalPricing() {
-  requestURL = `${baseURL}/data/rental.json`;
+  // requestURL = `${baseURL}/data/rental.json`;
+  requestURL = `/data/rental.json`;
   let requestRental = new XMLHttpRequest();
   requestRental.open('GET', requestURL);
   requestRental.responseType = 'json';
@@ -32,7 +34,8 @@ function getRentalPricing() {
 };
 
 function getTrainingPricing() {
-  requestURL = `${baseURL}/data/training.json`;
+  // requestURL = `${baseURL}/data/training.json`;
+  requestURL = `/data/training.json`;
   let requestTraining = new XMLHttpRequest();
   requestTraining.open('GET', requestURL);
   requestTraining.responseType = 'json';
@@ -45,7 +48,8 @@ function getTrainingPricing() {
 };
 
 function getSpecialtiesPricing() {
-  requestURL = `${baseURL}/data/specialties.json`;
+  // requestURL = `${baseURL}/data/specialties.json`;
+  requestURL = `/data/specialties.json`;
   let requestSpecialty = new XMLHttpRequest();
   requestSpecialty.open('GET', requestURL);
   requestSpecialty.responseType = 'json';

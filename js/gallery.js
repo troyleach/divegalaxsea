@@ -35,7 +35,7 @@ function generateImageThumb() {
     colDiv.className = 'col-md-2 box';
     
     // FIXME: when I have the CORS thing fixed delete this line
-    let temporaryURL = `${baseURL}/${galleryImages[i].webViewLink}`;
+    let temporaryURL = `${galleryImages[i].webViewLink}`;
 
     let img = document.createElement("img");
     // img.src = galleryImages[i].webViewLink;
@@ -65,7 +65,8 @@ $(document).ready(function(){
 });
 
 
-axios.get(`${baseURL}/data/images.json`)
+// axios.get(`${baseURL}/data/images.json`)
+axios.get(`data/images.json`)
   .then(function (response) {
     console.log('success', response);
     window.localStorage.removeItem('images');
