@@ -1,26 +1,19 @@
-// TODO: should make these requests when the users first visits the site.
-//   and store the information in the window, then come up with a way that when the user leaves
-//   the site it clears the window cache. or just keep it there.. what ever... maybe a cookie..
-
 let galleryImages, el;
+let xCoord = 0
+let yCoord = 265;
 
 
+console.log("one, two", xCoord, yCoord)
 el = document.querySelector('displayImage');
-el.innerHTML = `<h1 class="gallery-title">Explore Cozumel</h1>`
+el.innerHTML = `<h1 class="gallery-title">Explore the under water world of Cozumel</h1>`
 
-function displayImage(url) {
-  console.log('YO here I am now', url);
-  generateImageDisplay(url);
-};
-// gallery-image-element
-
-
-function generateImageDisplay(imageURL) {
+function generateImageDisplay(imageURL, name) {
   let el = document.querySelector('displayImage');
   el.innerHTML = `<img
                       src=${imageURL}
                       class="slidea"
-                      alt=${name}/>`
+                      alt=${name} />`
+  window.scrollTo(xCoord, yCoord);
 };
 
 
@@ -46,14 +39,15 @@ function generateImageThumb() {
 
     let img = document.createElement("img");
     // img.src = galleryImages[i].webViewLink;
-    // FIXME: when I have the CORS thing fixed delete this line
+    // FIXME: when I have the CORS thing fixed delete this line and uncomment the above line
     img.src = temporaryURL;
     img.className = 'slidea';
     img.alt = galleryImages[i].name
-    img.setAttribute("onclick", `displayImage('${temporaryURL}')`)
+    img.setAttribute("onclick", `generateImageDisplay('${temporaryURL}', '${galleryImages[i].name}')`)
     colDiv.appendChild(img);
 
     if (columnCount === 0) {
+      // Makes a new row div for every 6 columns
       rowDiv = document.createElement("div");
       rowDiv.className = 'row';
       columnCount = 6;
@@ -62,16 +56,6 @@ function generateImageThumb() {
     rowDiv.appendChild(colDiv)
     thumbs.appendChild(rowDiv);
   };
-
-  // `
-  //   <div class="col-md-2 box">
-  //     <img
-  //       src="img/gallery/img1.jpg"
-  //       class="slidea"
-  //       alt="Image 1"
-  //       onclick="displayImage('img/gallery/img1.jpg')" />
-  //   </div>
-  // `
 };
 
 
