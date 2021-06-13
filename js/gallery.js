@@ -16,7 +16,6 @@ function displayImage(url) {
 
 
 function generateImageDisplay(imageURL) {
-  console.log('YO generateImageDisplay', images);
   let el = document.querySelector('displayImage');
   el.innerHTML = `<img
                       src=${imageURL}
@@ -51,29 +50,28 @@ function generateImageThumb() {
     img.src = temporaryURL;
     img.className = 'slidea';
     img.alt = galleryImages[i].name
+    img.setAttribute("onclick", `displayImage('${temporaryURL}')`)
     colDiv.appendChild(img);
 
     if (columnCount === 0) {
-      console.log('Make a new ROW Div');
       rowDiv = document.createElement("div");
       rowDiv.className = 'row';
       columnCount = 6;
     }
     columnCount--
-    console.log('counting', columnCount);
     rowDiv.appendChild(colDiv)
     thumbs.appendChild(rowDiv);
-  }
+  };
 
-  `
-    <div class="col-md-2 box">
-      <img
-        src="img/gallery/img1.jpg"
-        class="slidea"
-        alt="Image 1"
-        onclick="displayImage('img/gallery/img1.jpg')" />
-    </div>
-  `
+  // `
+  //   <div class="col-md-2 box">
+  //     <img
+  //       src="img/gallery/img1.jpg"
+  //       class="slidea"
+  //       alt="Image 1"
+  //       onclick="displayImage('img/gallery/img1.jpg')" />
+  //   </div>
+  // `
 };
 
 
