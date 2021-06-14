@@ -464,6 +464,11 @@ tr td {
   width: 100%;
 }
 
+/* carousel */
+.carousel-images {
+  width: 35vw;
+}
+
 /*  menu below */
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 #cssmenu,

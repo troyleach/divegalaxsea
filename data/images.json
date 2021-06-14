@@ -4,43 +4,33 @@
         "images": [
             {
                 "id": "1ui1OnOKrbKBEIQKwA8G-hDdcwZNN1YzS",
-                "name": "img21.jpg",
+                "name": "Spotted_Drum.jpg",
                 "mimeType": "image/jpeg",
                 "parents": [
                     "1XIrGEf6qUadMdbebjxkPQsOQFY2OkWJC"
                 ],
                 "webContentLink": "https://drive.google.com/uc?id=1ui1OnOKrbKBEIQKwA8G-hDdcwZNN1YzS&export=download",
-                "webViewLink": "https://drive.google.com/file/d/1ui1OnOKrbKBEIQKwA8G-hDdcwZNN1YzS/view?usp=drivesdk"
+                "webViewLink": "img/gallery/googleDrive/Spotted_Drum.jpg"
             },
             {
                 "id": "1-KALIv-2nv2H5ntI6GeMO9lYVZsVFBq3",
-                "name": "img17.jpg",
+                "name": "Toadfish_2.jpg",
                 "mimeType": "image/jpeg",
                 "parents": [
                     "1XIrGEf6qUadMdbebjxkPQsOQFY2OkWJC"
                 ],
                 "webContentLink": "https://drive.google.com/uc?id=1-KALIv-2nv2H5ntI6GeMO9lYVZsVFBq3&export=download",
-                "webViewLink": "https://drive.google.com/file/d/1-KALIv-2nv2H5ntI6GeMO9lYVZsVFBq3/view?usp=drivesdk"
+                "webViewLink": "img/gallery/googleDrive/Toadfish_2.jpg"
             },
             {
                 "id": "1t7Ip7D41emTVej4yt7tj3KzMusXe9Yww",
-                "name": "img7.jpg",
+                "name": "Toadfish.jpg",
                 "mimeType": "image/jpeg",
                 "parents": [
                     "1XIrGEf6qUadMdbebjxkPQsOQFY2OkWJC"
                 ],
                 "webContentLink": "https://drive.google.com/uc?id=1t7Ip7D41emTVej4yt7tj3KzMusXe9Yww&export=download",
-                "webViewLink": "https://drive.google.com/file/d/1t7Ip7D41emTVej4yt7tj3KzMusXe9Yww/view?usp=drivesdk"
-            },
-            {
-                "id": "17pIeXzCOvgFDFKhV1JNp6dmO7HyFPUoH",
-                "name": "img5.jpg",
-                "mimeType": "image/jpeg",
-                "parents": [
-                    "1XIrGEf6qUadMdbebjxkPQsOQFY2OkWJC"
-                ],
-                "webContentLink": "https://drive.google.com/uc?id=17pIeXzCOvgFDFKhV1JNp6dmO7HyFPUoH&export=download",
-                "webViewLink": "https://drive.google.com/file/d/17pIeXzCOvgFDFKhV1JNp6dmO7HyFPUoH/view?usp=drivesdk"
+                "webViewLink": "img/gallery/googleDrive/Toadfish.jpg"
             }
         ]
     },
@@ -64,123 +54,143 @@
         "images": [
             {
                 "id": "1p5XpxxbBQr49Hmcc5MXhwKXK-BH9i7UE",
-                "name": "img1.jpg",
+                "name": "Bristle Star.jpg",
                 "mimeType": "image/jpeg",
                 "parents": [
                     "1fwtqwmPR81wI6hHlHPqRpcW-o6daAPlo"
                 ],
                 "webContentLink": "https://drive.google.com/uc?id=1p5XpxxbBQr49Hmcc5MXhwKXK-BH9i7UE&export=download",
-                "webViewLink": "img/gallery/img1.jpg"
+                "webViewLink": "img/gallery/googleDrive/Bristle_Star.jpg"
             },
             {
                 "id": "1GpComCIosgGS5hvm3bbH_4emjJ2Dzt6J",
-                "name": "img2.jpg",
+                "name": "Charlie.jpg",
                 "mimeType": "image/jpeg",
                 "parents": [
                     "1fwtqwmPR81wI6hHlHPqRpcW-o6daAPlo"
                 ],
                 "webContentLink": "https://drive.google.com/uc?id=1GpComCIosgGS5hvm3bbH_4emjJ2Dzt6J&export=download",
-                "webViewLink": "img/gallery/img2.jpg"
+                "webViewLink": "img/gallery/googleDrive/Charlie.jpg"
             },
             {
                 "id": "1PpC6sQl-vqEF0IhSiaByu4kRvFI9whZL",
-                "name": "img3.JPG",
+                "name": "Cleaner_Shrimp.jpg",
                 "mimeType": "image/jpeg",
                 "parents": [
                     "1fwtqwmPR81wI6hHlHPqRpcW-o6daAPlo"
                 ],
                 "webContentLink": "https://drive.google.com/uc?id=1PpC6sQl-vqEF0IhSiaByu4kRvFI9whZL&export=download",
-                "webViewLink": "img/gallery/img3.jpg"
+                "webViewLink": "img/gallery/googleDrive/Cleaner_Shrimp.jpg"
             },
             {
                 "id": "11XBCEl7Fg-3HZE1lyJ5U82RSBgQOrZn5",
-                "name": "img4.jpg",
+                "name": "Eagle_Ray.jpg",
                 "mimeType": "image/jpeg",
                 "parents": [
                     "1fwtqwmPR81wI6hHlHPqRpcW-o6daAPlo"
                 ],
                 "webContentLink": "https://drive.google.com/uc?id=11XBCEl7Fg-3HZE1lyJ5U82RSBgQOrZn5&export=download",
-                "webViewLink": "img/gallery/img4.jpg"
+                "webViewLink": "img/gallery/googleDrive/Eagle_Ray.jpg"
             },
             {
                 "id": "11XBCEl7Fg-3HZE1lyJ5U82RSBgQOrZn5",
-                "name": "img5.jpg",
+                "name": "Flamingo_Tongue.jpg",
                 "mimeType": "image/jpeg",
                 "parents": [
                     "1fwtqwmPR81wI6hHlHPqRpcW-o6daAPlo"
                 ],
                 "webContentLink": "https://drive.google.com/uc?id=11XBCEl7Fg-3HZE1lyJ5U82RSBgQOrZn5&export=download",
-                "webViewLink": "img/gallery/img5.jpg"
+                "webViewLink": "img/gallery/googleDrive/Flamingo_Tongue.jpg"
             },
             {
                 "id": "11XBCEl7Fg-3HZE1lyJ5U82RSBgQOrZn5",
-                "name": "img6.jpg",
+                "name": "Flounder.jpg",
                 "mimeType": "image/jpeg",
                 "parents": [
                     "1fwtqwmPR81wI6hHlHPqRpcW-o6daAPlo"
                 ],
                 "webContentLink": "https://drive.google.com/uc?id=11XBCEl7Fg-3HZE1lyJ5U82RSBgQOrZn5&export=download",
-                "webViewLink": "img/gallery/img6.jpg"
+                "webViewLink": "img/gallery/googleDrive/Flounder.jpg"
             },
             {
                 "id": "11XBCEl7Fg-3HZE1lyJ5U82RSBgQOrZn5",
-                "name": "img9.jpg",
+                "name": "Green_Turtle_2.jpg",
                 "mimeType": "image/jpeg",
                 "parents": [
                     "1fwtqwmPR81wI6hHlHPqRpcW-o6daAPlo"
                 ],
                 "webContentLink": "https://drive.google.com/uc?id=11XBCEl7Fg-3HZE1lyJ5U82RSBgQOrZn5&export=download",
-                "webViewLink": "img/gallery/img9.jpg"
+                "webViewLink": "img/gallery/googleDrive/Green_Turtle_2.jpg"
             },
             {
                 "id": "11XBCEl7Fg-3HZE1lyJ5U82RSBgQOrZn5",
-                "name": "img10.jpg",
+                "name": "Green_Turtle.jpg",
                 "mimeType": "image/jpeg",
                 "parents": [
                     "1fwtqwmPR81wI6hHlHPqRpcW-o6daAPlo"
                 ],
                 "webContentLink": "https://drive.google.com/uc?id=11XBCEl7Fg-3HZE1lyJ5U82RSBgQOrZn5&export=download",
-                "webViewLink": "img/gallery/img10.jpg"
+                "webViewLink": "img/gallery/googleDrive/Green_Turtle.jpg"
             },
             {
                 "id": "11XBCEl7Fg-3HZE1lyJ5U82RSBgQOrZn5",
-                "name": "img11.jpg",
+                "name": "Hawksbill_2.jpg",
                 "mimeType": "image/jpeg",
                 "parents": [
                     "1fwtqwmPR81wI6hHlHPqRpcW-o6daAPlo"
                 ],
                 "webContentLink": "https://drive.google.com/uc?id=11XBCEl7Fg-3HZE1lyJ5U82RSBgQOrZn5&export=download",
-                "webViewLink": "img/gallery/img11.jpg"
+                "webViewLink": "img/gallery/googleDrive/Hawksbill_2.jpg"
             },
             {
                 "id": "11XBCEl7Fg-3HZE1lyJ5U82RSBgQOrZn5",
-                "name": "img12.jpg",
+                "name": "Hawksbill.jpg",
                 "mimeType": "image/jpeg",
                 "parents": [
                     "1fwtqwmPR81wI6hHlHPqRpcW-o6daAPlo"
                 ],
                 "webContentLink": "https://drive.google.com/uc?id=11XBCEl7Fg-3HZE1lyJ5U82RSBgQOrZn5&export=download",
-                "webViewLink": "img/gallery/img12.jpg"
+                "webViewLink": "img/gallery/googleDrive/Hawksbill.jpg"
             },
             {
                 "id": "11XBCEl7Fg-3HZE1lyJ5U82RSBgQOrZn5",
-                "name": "img13.jpg",
+                "name": "Hermit.jpg",
                 "mimeType": "image/jpeg",
                 "parents": [
                     "1fwtqwmPR81wI6hHlHPqRpcW-o6daAPlo"
                 ],
                 "webContentLink": "https://drive.google.com/uc?id=11XBCEl7Fg-3HZE1lyJ5U82RSBgQOrZn5&export=download",
-                "webViewLink": "img/gallery/img13.jpg"
+                "webViewLink": "img/gallery/googleDrive/Hermit.jpg"
             },
             {
                 "id": "11XBCEl7Fg-3HZE1lyJ5U82RSBgQOrZn5",
-                "name": "img14.jpg",
+                "name": "Octo.jpg",
                 "mimeType": "image/jpeg",
                 "parents": [
                     "1fwtqwmPR81wI6hHlHPqRpcW-o6daAPlo"
                 ],
                 "webContentLink": "https://drive.google.com/uc?id=11XBCEl7Fg-3HZE1lyJ5U82RSBgQOrZn5&export=download",
-                "webViewLink": "img/gallery/img14.jpg"
+                "webViewLink": "img/gallery/googleDrive/Octo.jpg"
+            },
+            {
+                "id": "11XBCEl7Fg-3HZE1lyJ5U82RSBgQOrZn5",
+                "name": "Puffer.jpg",
+                "mimeType": "image/jpeg",
+                "parents": [
+                    "1fwtqwmPR81wI6hHlHPqRpcW-o6daAPlo"
+                ],
+                "webContentLink": "https://drive.google.com/uc?id=11XBCEl7Fg-3HZE1lyJ5U82RSBgQOrZn5&export=download",
+                "webViewLink": "img/gallery/googleDrive/Puffer.jpg"
+            },
+            {
+                "id": "11XBCEl7Fg-3HZE1lyJ5U82RSBgQOrZn5",
+                "name": "Smooth_Puffer.jpg",
+                "mimeType": "image/jpeg",
+                "parents": [
+                    "1fwtqwmPR81wI6hHlHPqRpcW-o6daAPlo"
+                ],
+                "webContentLink": "https://drive.google.com/uc?id=11XBCEl7Fg-3HZE1lyJ5U82RSBgQOrZn5&export=download",
+                "webViewLink": "img/gallery/googleDrive/Smooth_Puffer.jpg"
             }
         ]
     }
