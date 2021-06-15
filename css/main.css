@@ -396,6 +396,10 @@ textarea {
   //margin: 15px;
 }
 
+table {
+  background-color: var(--lightBlue) !important;
+}
+
 table.center {
     margin-left:auto; 
     margin-right:auto;
@@ -405,10 +409,12 @@ table.center {
 
 tr th {
   padding: 5px;
+  color: var(--blue);
 }
 
 tr td {
   padding: 2px 10px;
+  color: var(--blue);
 }
 
 /* Style the tab */
@@ -467,6 +473,10 @@ tr td {
 /* carousel */
 .carousel-images {
   width: 35vw;
+}
+
+.carousel-container {
+  height: 450px;
 }
 
 /*  menu below */
