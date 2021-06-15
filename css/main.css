@@ -280,7 +280,7 @@ textarea {
 }
 
 .ssi-logo {
-  height: 16vh;
+  height: 65px;
   padding: 10px;
 }
 
@@ -684,6 +684,11 @@ tr td {
 
   .carousel-images {
     width: 75vw;
+  }
+
+  .ssi-logo {
+    height: 16vh;
+    padding: 10px;
   }
 /* FIXME: need to figure this out */
 
